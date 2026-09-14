@@ -44,10 +44,11 @@
       </p>
     </section>
 
-    <!-- Why We Started - Digabung jadi satu blok paragraf mengalir rapi -->
-    <section class="max-w-4xl mb-20">
+<!-- Why We Started - Dibuat full selebar konten bawahnya -->
+    <section class="mb-16 w-full">
       <h2 class="font-cinzel text-2xl mb-4">Why We Started?</h2>
-      <p class="font-poppins text-sm leading-relaxed opacity-90 text-justify">
+      <!-- Hapus max-w-4xl, ganti w-full biar lebarnya sama persis dengan section bawahnya -->
+      <p class="font-poppins text-sm leading-relaxed opacity-90 text-justify w-full">
         Evara lahir dari keinginan untuk mendefinisikan ulang cara kita menjelajah dunia. Kami percaya perjalanan seharusnya melampaui rencana yang generik. Melalui Evara Tours, kami hadir untuk memberikan transparansi penuh dan pengalaman yang benar-benar personal. Karena bagi kami, setiap orang berhak mendapatkan petualangan yang terasa dirancang khusus, sebuah cerita unik yang bukan sekadar pilihan dari katalog.
       </p>
     </section>
@@ -67,16 +68,37 @@
       </div>
     </section>
 
+<!-- OUR CORE VALUES -->
     <section class="mb-20">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
-        <div>
-          <h2 class="font-cinzel text-2xl tracking-wide">OUR<br>CORE VALUE</h2>
+      <h2 class="font-cinzel text-2xl mb-6">The Evara Difference</h2>
+      
+      <!-- Grid 3 kolom yang simetris dan rapi -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Card 1 -->
+        <div class="bg-white/50 border border-[#7a2222]/10 p-6 rounded-xl shadow-sm">
+          <h3 class="font-cinzel font-bold text-lg mb-2 text-[#7a2222]">Personalized</h3>
+          <p class="font-poppins text-xs leading-relaxed opacity-80">
+            Setiap itinerary dirancang khusus menyesuaikan preferensi gaya perjalanan privat Anda.
+          </p>
         </div>
-        <div class="font-poppins md:col-span-2 space-y-4 text-xs md:text-sm leading-relaxed">
-          <p><span class="uppercase">Perspective over Itinerary:</span> Kami tidak hanya memberikan jadwal perjalanan, tetapi menyisipkan "nyawa" dan koneksi lokal agar setiap langkahmu terasa lebih bermakna.</p>
-          <p><span class="uppercase">Independent Spirit:</span> Kami memberdayakan traveler untuk menjelajah secara mandiri dengan bekal informasi yang jujur, transparan, dan tanpa agenda tersembunyi.</p>
-          <p><span class="uppercase">Bespoke Digital Experience:</span> Produk kami dirancang khusus untuk memenuhi kebutuhan spesifik para traveler.</p>
+
+        <!-- Card 2 -->
+        <div class="bg-white/50 border border-[#7a2222]/10 p-6 rounded-xl shadow-sm">
+          <h3 class="font-cinzel font-bold text-lg mb-2 text-[#7a2222]">Transparent</h3>
+          <p class="font-poppins text-xs leading-relaxed opacity-80">
+            Harga jelas dan transparan tanpa ada biaya tersembunyi di tengah perjalanan.
+          </p>
         </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white/50 border border-[#7a2222]/10 p-6 rounded-xl shadow-sm">
+          <h3 class="font-cinzel font-bold text-lg mb-2 text-[#7a2222]">Authentic</h3>
+          <p class="font-poppins text-xs leading-relaxed opacity-80">
+            Kurasi destinasi pilihan melalui mitra lokal terpercaya untuk pengalaman terbaik.
+          </p>
+        </div>
+
       </div>
     </section>
 
