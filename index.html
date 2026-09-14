@@ -19,16 +19,16 @@
 </head>
 <body class="bg-[#f5f0e1] text-[#7a2222] min-h-screen flex flex-col justify-between">
 
-  <!-- HEADER / NAVBAR -->
-  <header class="max-w-7xl mx-auto w-full px-6 py-8 flex justify-between items-center">
+<!-- HEADER / NAVBAR -->
+  <header class="max-w-7xl mx-auto w-full px-6 py-6 md:py-8 flex flex-col md:flex-row justify-between items-center gap-4">
     <div>
-      <img src="logo-evara.png" alt="Evara Trip Logo" class="h-16 w-auto">
+      <img src="logo-evara.png" alt="Evara Trip Logo" class="h-12 md:h-16 w-auto">
     </div>
-    <nav class="space-x-6 text-sm font-poppins tracking-wide">
+    <nav class="flex flex-wrap items-center justify-center gap-4 md:space-x-6 text-sm font-poppins tracking-wide">
       <a href="index.html" class="hover:opacity-75 transition">Home</a>
-      <span>|</span>
+      <span class="hidden md:inline">|</span>
       <a href="catalog.html" class="hover:opacity-75 transition">Catalog</a>
-      <span>|</span>
+      <span class="hidden md:inline">|</span>
       <a href="about.html" class="hover:opacity-75 transition">About</a>
     </nav>
   </header>
