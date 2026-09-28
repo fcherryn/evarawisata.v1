@@ -158,6 +158,59 @@
       </div>
     </div>
 
+
+    <!-- SECTION: PERSONAL EDIT INQUIRY FORM -->
+<div class="mt-16 bg-white/90 border border-amber-200/60 rounded-3xl p-8 md:p-12 max-w-4xl mx-auto shadow-sm">
+  <div class="text-center mb-8">
+    <span class="text-xs font-bold uppercase tracking-widest text-[#7a2222] bg-[#f5f0e1] px-3 py-1 rounded-full">Bespoke Inquiry</span>
+    <h3 class="font-cinzel text-2xl md:text-3xl mt-3 mb-2">Build Your Personal Edit</h3>
+    <p class="text-gray-600 text-xs md:text-sm">
+      Tell us your vision, and we will craft a journey completely built from scratch around your unique pace and story.
+    </p>
+  </div>
+
+  <!-- Form Action menggunakan Web3Forms (Gratis & Langsung Masuk Email) -->
+  <!-- Kamu tinggal ganti string 'YOUR_ACCESS_KEY_HERE' dengan kunci API gratis dari web3forms.com -->
+  <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+    
+    <!-- Ganti dengan Access Key gratis yang kamu dapatkan di web3forms.com -->
+    <input type="hidden" name="apikey" value="6d3203f7-631b-46a0-850f-904fe3f49893">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <label class="block text-xs font-semibold uppercase tracking-wider mb-2">Your Name</label>
+        <input type="text" name="name" required class="w-full bg-[#f5f0e1]/50 border border-amber-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#7a2222]" placeholder="e.g. Victoria Sterling">
+      </div>
+      <div>
+        <label class="block text-xs font-semibold uppercase tracking-wider mb-2">WhatsApp / Phone Number</label>
+        <input type="text" name="phone" required class="w-full bg-[#f5f0e1]/50 border border-amber-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#7a2222]" placeholder="e.g. +62 812-3456-7890">
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <label class="block text-xs font-semibold uppercase tracking-wider mb-2">Target Destination / Concept</label>
+        <input type="text" name="destination" required class="w-full bg-[#f5f0e1]/50 border border-amber-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#7a2222]" placeholder="e.g. Private trip to Cappadocia, Turkey">
+      </div>
+      <div>
+        <label class="block text-xs font-semibold uppercase tracking-wider mb-2">Estimated Date / Duration</label>
+        <input type="text" name="duration" class="w-full bg-[#f5f0e1]/50 border border-amber-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#7a2222]" placeholder="e.g. Feb 11 - Feb 18, 2027 (7 Days)">
+      </div>
+    </div>
+
+    <div>
+      <label class="block text-xs font-semibold uppercase tracking-wider mb-2">Tell Us Your Vision & Preferences</label>
+      <textarea name="message" rows="4" class="w-full bg-[#f5f0e1]/50 border border-amber-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#7a2222]" placeholder="Share your preferred pacing, accommodation style, or special requests..."></textarea>
+    </div>
+
+    <div class="text-center pt-2">
+      <button type="submit" class="inline-block bg-[#7a2222] text-[#f5f0e1] text-xs font-semibold px-8 py-3.5 rounded-full hover:bg-[#811c25] transition shadow-md">
+        Submit Your Vision >>
+      </button>
+    </div>
+  </form>
+</div>
+
     <!-- The Evara Standards Banner -->
     <div class="bg-[#7a2222] text-[#f5f0e1] rounded-2xl p-8 md:p-12 text-center">
       <h3 class="font-cinzel text-2xl mb-8">The Evara Standards</h3>
