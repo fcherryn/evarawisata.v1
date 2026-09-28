@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Evara Trip</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    .font-cinzel { font-family: 'Cinzel', serif; }
+    .font-poppins { font-family: 'Poppins', sans-serif; }
+    body { color: #7a2222; background-color: #f5f0e1; }
+  </style>
+</head>
+<body class="font-poppins flex flex-col min-h-screen">
+
+  <!-- Navbar (Tanpa Pembatas/Border) -->
+  <header class="bg-[#f5f0e1] px-6 py-4 flex justify-between items-center">
+    <a href="index.html" class="font-cinzel text-2xl tracking-wider">EVARA TRIP</a>
+    <nav class="space-x-6 text-sm font-semibold">
+      <a href="index.html" class="hover:opacity-75 transition">Home</a>
+      <a href="services.html" class="underline underline-offset-4">Services</a>
+      <a href="about.html" class="hover:opacity-75 transition">About</a>
+    </nav>
+  </header>
+
+  <!-- Hero / Header Section -->
+  <main class="flex-grow container mx-auto px-6 py-12 max-w-5xl">
+    <div class="text-center mb-16">
+      <span class="text-xs uppercase tracking-widest text-[#7a2222]/80 font-semibold">Our Approach</span>
+      <h1 class="font-cinzel text-4xl md:text-5xl mt-2 mb-4">Redefining How You See the World</h1>
+      <p class="text-gray-700 max-w-2xl mx-auto text-base">
+        Evara is not here to sell generic travel packages. We curate the art of experiencing destinations with your personal rhythm, depth, and meaning.
+      </p>
+    </div>
+
+    <!-- Two Core Pillars (Signature Series & Personal Edit) -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+      
+      <!-- Pillar 1: Signature Series -->
+      <div class="bg-white/80 p-8 rounded-2xl shadow-sm border border-amber-200/50 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider bg-[#7a2222] text-[#f5f0e1] px-3 py-1 rounded-full">Curated Choice</span>
+          <h2 class="font-cinzel text-2xl mt-4 mb-2">The Signature Series</h2>
+          <p class="text-sm font-semibold text-gray-800 italic mb-4">"Ready-made itineraries for real experiences."</p>
+          <p class="text-gray-600 text-sm leading-relaxed">
+            Designed for travelers who desire meticulously pre-curated routes crafted from the ground up. More than just a standard itinerary—these are ready-to-go journeys emphasizing authentic culture, refined aesthetics, and deep local immersion without the hassle of planning from scratch.
+          </p>
+        </div>
+        <div class="mt-8">
+          <a href="https://wa.me/6285179908233" target="_blank" class="inline-block bg-[#7a2222] text-[#f5f0e1] text-xs font-semibold px-5 py-3 rounded-lg hover:bg-[#811c25] transition">Inquire Signature Series</a>
+        </div>
+      </div>
+
+      <!-- Pillar 2: Personal Edit -->
+      <div class="bg-white/80 p-8 rounded-2xl shadow-sm border border-amber-200/50 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider bg-[#7a2222] text-[#f5f0e1] px-3 py-1 rounded-full">Bespoke Design</span>
+          <h2 class="font-cinzel text-2xl mt-4 mb-2">The Personal Edit</h2>
+          <p class="text-sm font-semibold text-gray-800 italic mb-4">"Your trip, built from scratch. Your pace, your story."</p>
+          <p class="text-gray-600 text-sm leading-relaxed">
+            Tailored for those who seek absolute freedom and individuality. Every journey is built completely from a blank canvas, fully customized to match your mood, lifestyle, and personal narrative on the road.
+          </p>
+        </div>
+        <div class="mt-8">
+          <a href="https://wa.me/6285179908233" target="_blank" class="inline-block bg-[#7a2222] text-[#f5f0e1] text-xs font-semibold px-5 py-3 rounded-lg hover:bg-[#811c25] transition">Design Your Journey</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- The Evara Standards Banner -->
+    <div class="bg-[#7a2222] text-[#f5f0e1] rounded-2xl p-8 md:p-12 text-center">
+      <h3 class="font-cinzel text-2xl mb-8">The Evara Standards</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-sm">
+        <div class="p-3">
+          <p class="font-bold text-amber-200 mb-1">✓ No Generic Itineraries</p>
+          <p class="text-xs text-gray-200">No cookie-cutter routes or mass-market tourist traps.</p>
+        </div>
+        <div class="p-3">
+          <p class="font-bold text-amber-200 mb-1">✓ Plan Less, Explore More</p>
+          <p class="text-xs text-gray-200">Fewer logistics headaches, more room for genuine moments.</p>
+        </div>
+        <div class="p-3">
+          <p class="font-bold text-amber-200 mb-1">✓ Freedom to Explore</p>
+          <p class="text-xs text-gray-200">Fluidity and flexibility built into your daily movement.</p>
+        </div>
+        <div class="p-3">
+          <p class="font-bold text-amber-200 mb-1">✓ 24/7 Traveler Support</p>
+          <p class="text-xs text-gray-200">Dedicated assistance whenever you need it.</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-xs border-t border-amber-900/10 mt-12">
+    <p>&copy; 2026 PT Evara Wisata Estetika. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
