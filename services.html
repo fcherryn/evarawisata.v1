@@ -105,19 +105,20 @@
       </div>
     </div>
 
- <!-- REVISED: FEATURED JOURNEYS DENGAN GAMBAR POSTER -->
-    <div class="mb-20">
+<!-- FEATURED JOURNEYS: 7 DESTINASI (RAPI DENGAN CENTERED LAST ROW) -->
+    <div id="featured-journeys" class="mb-24">
       <div class="text-center mb-12">
-        <h2 class="font-cinzel text-3xl mb-2">Featured Journeys</h2>
-        <p class="text-xs uppercase tracking-wider opacity-80">A glimpse of our selected itineraries</p>
+        <span class="text-xs uppercase tracking-widest font-semibold opacity-75">The Signature Collection</span>
+        <h2 class="font-cinzel text-3xl md:text-4xl mt-2 mb-2">Featured Journeys</h2>
+        <p class="text-xs uppercase tracking-wider opacity-80">Seven curated routes crafted for small-group intimacy (8–15 guests)</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Menggunakan Flex Wrap + Justify Center agar card ke-7 otomatis simetris di tengah -->
+      <div class="flex flex-wrap justify-center gap-8">
         
-        <!-- Paket 1: Bangkok-Pattaya -->
-        <div class="bg-white/90 rounded-2xl shadow-sm border border-amber-200/60 overflow-hidden flex flex-col justify-between">
+        <!-- Card 1: Bangkok-Pattaya -->
+        <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.4rem)] bg-white/90 rounded-2xl shadow-sm border border-amber-200/60 overflow-hidden flex flex-col justify-between">
           <div>
-            <!-- Poster Image -->
             <div class="h-48 w-full overflow-hidden bg-gray-100">
               <img src="posterbangkok.png" alt="Bangkok Pattaya Trip" class="w-full h-full object-cover hover:scale-105 transition duration-500">
             </div>
@@ -130,16 +131,15 @@
             </div>
           </div>
           <div class="p-6 pt-0">
-            <a href="https://wa.me/6285179908233?text=Halo%20Evara,%20saya%20tertarik%20dengan%20paket%20Bangkok-Pattaya" target="_blank" class="block text-center bg-[#7a2222] text-[#f5f0e1] text-xs font-semibold py-3 rounded-lg hover:bg-[#811c25] transition">
-              Inquire This Experience 
+            <a href="https://wa.me/6285179908233?text=Halo%20Evara,%20saya%20tertarik%20dengan%20Signature%20Series%20Bangkok-Pattaya" target="_blank" class="block text-center bg-[#7a2222] text-[#f5f0e1] text-xs font-semibold py-3 rounded-lg hover:bg-[#811c25] transition">
+              Inquire This Experience
             </a>
           </div>
         </div>
 
-        <!-- Paket 2: Guangzhou -->
-        <div class="bg-white/90 rounded-2xl shadow-sm border border-amber-200/60 overflow-hidden flex flex-col justify-between">
+        <!-- Card 2: Guangzhou -->
+        <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.4rem)] bg-white/90 rounded-2xl shadow-sm border border-amber-200/60 overflow-hidden flex flex-col justify-between">
           <div>
-            <!-- Poster Image -->
             <div class="h-48 w-full overflow-hidden bg-gray-100">
               <img src="posterguangzhou.png" alt="Guangzhou Tech Trip" class="w-full h-full object-cover hover:scale-105 transition duration-500">
             </div>
@@ -152,16 +152,15 @@
             </div>
           </div>
           <div class="p-6 pt-0">
-            <a href="https://wa.me/6285179908233?text=Halo%20Evara,%20saya%20tertarik%20dengan%20paket%20Guangzhou%20Tech" target="_blank" class="block text-center bg-[#7a2222] text-[#f5f0e1] text-xs font-semibold py-3 rounded-lg hover:bg-[#811c25] transition">
-              Inquire This Experience 
+            <a href="https://wa.me/6285179908233?text=Halo%20Evara,%20saya%20tertarik%20dengan%20Signature%20Series%20Guangzhou%20Tech" target="_blank" class="block text-center bg-[#7a2222] text-[#f5f0e1] text-xs font-semibold py-3 rounded-lg hover:bg-[#811c25] transition">
+              Inquire This Experience
             </a>
           </div>
         </div>
 
-        <!-- Paket 3: Japan -->
-        <div class="bg-white/90 rounded-2xl shadow-sm border border-amber-200/60 overflow-hidden flex flex-col justify-between">
+        <!-- Card 3: Japan -->
+        <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.4rem)] bg-white/90 rounded-2xl shadow-sm border border-amber-200/60 overflow-hidden flex flex-col justify-between">
           <div>
-            <!-- Poster Image -->
             <div class="h-48 w-full overflow-hidden bg-gray-100">
               <img src="posterjapan.png" alt="Japan 7 Days Trip" class="w-full h-full object-cover hover:scale-105 transition duration-500">
             </div>
@@ -174,8 +173,92 @@
             </div>
           </div>
           <div class="p-6 pt-0">
-            <a href="https://wa.me/6285179908233?text=Halo%20Evara,%20saya%20tertarik%20dengan%20paket%20Japan%207%20Days" target="_blank" class="block text-center bg-[#7a2222] text-[#f5f0e1] text-xs font-semibold py-3 rounded-lg hover:bg-[#811c25] transition">
-              Inquire This Experience 
+            <a href="https://wa.me/6285179908233?text=Halo%20Evara,%20saya%20tertarik%20dengan%20Signature%20Series%20Japan%207%20Days" target="_blank" class="block text-center bg-[#7a2222] text-[#f5f0e1] text-xs font-semibold py-3 rounded-lg hover:bg-[#811c25] transition">
+              Inquire This Experience
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 4: Hanoi & Ninh Binh -->
+        <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.4rem)] bg-white/90 rounded-2xl shadow-sm border border-amber-200/60 overflow-hidden flex flex-col justify-between">
+          <div>
+            <div class="h-48 w-full overflow-hidden bg-gray-100">
+              <img src="posterhanoi.png" alt="Hanoi Ninh Binh Trip" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+            </div>
+            <div class="p-6">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-[#7a2222] bg-[#f5f0e1] px-2.5 py-1 rounded-md">Signature Series</span>
+              <h3 class="font-cinzel text-lg mt-3 mb-2">7 Days Slow Living in Hanoi & Ninh Binh</h3>
+              <p class="text-gray-600 text-xs leading-relaxed">
+                Sip egg coffee in Hanoi’s French Quarter alleys, glide past limestone karsts in Trang An, and soak in northern Vietnam’s timeless rhythm at an unhurried pace.
+              </p>
+            </div>
+          </div>
+          <div class="p-6 pt-0">
+            <a href="https://wa.me/6285179908233?text=Halo%20Evara,%20saya%20tertarik%20dengan%20Signature%20Series%20Hanoi%20%26%20Ninh%20Binh" target="_blank" class="block text-center bg-[#7a2222] text-[#f5f0e1] text-xs font-semibold py-3 rounded-lg hover:bg-[#811c25] transition">
+              Inquire This Experience
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 5: Seoul & Gangneung -->
+        <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.4rem)] bg-white/90 rounded-2xl shadow-sm border border-amber-200/60 overflow-hidden flex flex-col justify-between">
+          <div>
+            <div class="h-48 w-full overflow-hidden bg-gray-100">
+              <img src="posterseoul.png" alt="Seoul Gangneung Trip" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+            </div>
+            <div class="p-6">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-[#7a2222] bg-[#f5f0e1] px-2.5 py-1 rounded-md">Signature Series</span>
+              <h3 class="font-cinzel text-lg mt-3 mb-2">7 Days Seoul & Gangneung: City Pulse to Coastal Calm</h3>
+              <p class="text-gray-600 text-xs leading-relaxed">
+                Pair Seongsu’s independent design studios and late-night pojangmacha dining with breezy seaside coffee streets along Korea’s East Coast.
+              </p>
+            </div>
+          </div>
+          <div class="p-6 pt-0">
+            <a href="https://wa.me/6285179908233?text=Halo%20Evara,%20saya%20tertarik%20dengan%20Signature%20Series%20Seoul%20%26%20Gangneung" target="_blank" class="block text-center bg-[#7a2222] text-[#f5f0e1] text-xs font-semibold py-3 rounded-lg hover:bg-[#811c25] transition">
+              Inquire This Experience
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 6: Chengdu & Jiuzhaigou -->
+        <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.4rem)] bg-white/90 rounded-2xl shadow-sm border border-amber-200/60 overflow-hidden flex flex-col justify-between">
+          <div>
+            <div class="h-48 w-full overflow-hidden bg-gray-100">
+              <img src="posterchengdu.png" alt="Chengdu Jiuzhaigou Trip" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+            </div>
+            <div class="p-6">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-[#7a2222] bg-[#f5f0e1] px-2.5 py-1 rounded-md">Signature Series</span>
+              <h3 class="font-cinzel text-lg mt-3 mb-2">7 Days Chengdu & Jiuzhaigou: Alpine Lakes & Teahouse Culture</h3>
+              <p class="text-gray-600 text-xs leading-relaxed">
+                Unwind in Chengdu’s historic bamboo teahouses, savor authentic Sichuan flavors, and wander through Jiuzhaigou’s emerald valleys and turquoise lakes.
+              </p>
+            </div>
+          </div>
+          <div class="p-6 pt-0">
+            <a href="https://wa.me/6285179908233?text=Halo%20Evara,%20saya%20tertarik%20dengan%20Signature%20Series%20Chengdu%20%26%20Jiuzhaigou" target="_blank" class="block text-center bg-[#7a2222] text-[#f5f0e1] text-xs font-semibold py-3 rounded-lg hover:bg-[#811c25] transition">
+              Inquire This Experience
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 7: Bangkok & Khao Yai (Otomatis Center di Desktop) -->
+        <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.4rem)] bg-white/90 rounded-2xl shadow-sm border border-amber-200/60 overflow-hidden flex flex-col justify-between">
+          <div>
+            <div class="h-48 w-full overflow-hidden bg-gray-100">
+              <img src="posterkhaoyai.png" alt="Bangkok Khao Yai Trip" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+            </div>
+            <div class="p-6">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-[#7a2222] bg-[#f5f0e1] px-2.5 py-1 rounded-md">Signature Series</span>
+              <h3 class="font-cinzel text-lg mt-3 mb-2">4 Days Bangkok & Khao Yai: Vineyard Mist & Creative Corners</h3>
+              <p class="text-gray-600 text-xs leading-relaxed">
+                Trade city rush for Khao Yai’s cool hillside vineyards, architectural farm cafés, and secret Bangkok supper clubs curated for an effortless year-end reset.
+              </p>
+            </div>
+          </div>
+          <div class="p-6 pt-0">
+            <a href="https://wa.me/6285179908233?text=Halo%20Evara,%20saya%20tertarik%20dengan%20Signature%20Series%20Bangkok%20%26%20Khao%20Yai" target="_blank" class="block text-center bg-[#7a2222] text-[#f5f0e1] text-xs font-semibold py-3 rounded-lg hover:bg-[#811c25] transition">
+              Inquire This Experience
             </a>
           </div>
         </div>
